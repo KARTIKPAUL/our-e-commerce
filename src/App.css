@@ -1,0 +1,24 @@
+
+html, body {
+    height: 100%; 
+    margin: 0;    
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .app-container {
+    flex-grow: 1; 
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #f1f1f1; /* Light white shade */
+    color: #333; /* Dark text color for contrast */
+    text-align: center;
+    width: 100%; /* Ensure the footer stretches across the entire page */
+  }
+  
