@@ -19,7 +19,7 @@ export function Fotter() {
                                 <a href="#" className="text-gray-600 hover:text-black"><FaGithub size={20} /></a>
                             </div>
                         </div>
-
+                        
                         <div className="w-full md:w-3/4 flex flex-wrap justify-between">
                             <div className="w-1/2 md:w-1/4 mb-6">
                                 <h3 className="font-semibold">COMPANY</h3>
