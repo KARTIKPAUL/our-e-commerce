@@ -6,7 +6,7 @@ import About from './Pages/About'; // Assuming you have an About component
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/About" element={<About />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 };
