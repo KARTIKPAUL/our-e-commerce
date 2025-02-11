@@ -1,3 +1,6 @@
+// App.jsx
+import { BrowserRouter } from 'react-router-dom';
+
 import './App.css'; // Ensure you have the right path to your CSS
 import Carousel from './Components/Carousel';
 import { Categories } from './Components/Categories';
@@ -8,16 +11,23 @@ import Reliability from './Components/Reliability';
 import { Reviews } from './Components/Reviews';
 import { TopSelling } from './Components/TopSelling';
 
+import AppRoutes from './AppRoutes';
+
 function App() {
   return (
     <div className="app-container">
-      <Navbar />
-      <Carousel />
-      <Categories />
-      <TopSelling />
-      <Gallery />
-      <Reviews />
-      <Reliability />
+             <Navbar />
+      <BrowserRouter>
+ 
+        <Carousel />
+        <Categories />
+        <TopSelling />
+        <Gallery />
+        <Reviews />
+        <Reliability />
+        <AppRoutes />
+        
+      </BrowserRouter>
       <Fotter />
     </div>
   );

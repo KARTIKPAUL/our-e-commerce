@@ -7,9 +7,9 @@ const reviews = [
   { name: "Sarah M.", text: "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations." },
   { name: "Ethan R.", text: "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt." },
   { name: "Olivia P.", text: "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It’s evident that the designer poured their creativity into making this t-shirt stand out." },
-  { name: "Liam K.", text: "This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion." },
-  { name: "Jessica L.", text: "Absolutely stunning designs! Every product I buy from Shop.co never fails to impress me. The attention to detail and quality are unmatched." },
-  { name: "Daniel W.", text: "Great fit and amazing fabric. I’ve received so many compliments on my new outfits from Shop.co. Definitely my go-to brand now!" }
+  // { name: "Liam K.", text: "This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion." },
+  // { name: "Jessica L.", text: "Absolutely stunning designs! Every product I buy from Shop.co never fails to impress me. The attention to detail and quality are unmatched." },
+  // { name: "Daniel W.", text: "Great fit and amazing fabric. I’ve received so many compliments on my new outfits from Shop.co. Definitely my go-to brand now!" }
 ];
 
 // ✅ Card Component
