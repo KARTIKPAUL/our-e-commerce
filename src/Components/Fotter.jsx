@@ -27,9 +27,9 @@ export function Fotter() {
                                 <h3 className="font-semibold">COMPANY</h3>
                                 <ul className="mt-2 space-y-2 text-gray-600">
                                 <li><Link to="/About" className="hover:underline">About</Link></li>
-                                    <li><a href="#" className="hover:underline">Features</a></li>
-                                    <li><a href="#" className="hover:underline">Works</a></li>
-                                    <li><a href="#" className="hover:underline">Career</a></li>
+                                <li><Link to="/Features" className="hover:underline">Features</Link></li>
+                                <li><Link to="/Works" className="hover:underline">Works</Link></li>
+                                <li><Link to="/Career" className="hover:underline">Career</Link></li>
                                 </ul>
                             </div>
 

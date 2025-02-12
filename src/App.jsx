@@ -9,6 +9,9 @@ import Reliability from './Components/Reliability';
 import { Reviews } from './Components/Reviews';
 import { TopSelling } from './Components/TopSelling';
 import About from './Pages/About';
+import Features from './Pages/Features';
+import Works from './Pages/Works';
+import Career from './Pages/Career';
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
 
         {/* About Page */}
         <Route path="/about" element={<About />} />
+        <Route path='/features' element={<Features />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/career" element={<Career />} />
       </Routes>
       <Fotter />
     </BrowserRouter>
