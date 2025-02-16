@@ -36,10 +36,10 @@ export function Fotter() {
                             <div className="w-1/2 md:w-1/4 mb-6">
                                 <h3 className="font-semibold">HELP</h3>
                                 <ul className="mt-2 space-y-2 text-gray-600">
-                                    <li><a href="#" className="hover:underline">Customer Support</a></li>
-                                    <li><a href="#" className="hover:underline">Delivery Details</a></li>
-                                    <li><a href="#" className="hover:underline">Terms & Conditions</a></li>
-                                    <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+                                    <li><Link to="/CustomerSupport" className="hover:underline">Customer Support</Link></li>
+                                    <li><Link to="/DeliveryDetails" className="hover:underline">Delivery Details</Link></li>
+                                    <li><Link to="/TermsAndCondition" className="hover:underline">Terms & Conditions</Link></li>
+                                    <li><Link to="/privacyPolicy" className="hover:underline">Privacy Policy</Link></li>
                                 </ul>
                             </div>
 

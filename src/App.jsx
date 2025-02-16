@@ -12,6 +12,10 @@ import About from './Pages/About';
 import Features from './Pages/Features';
 import Works from './Pages/Works';
 import Career from './Pages/Career';
+import CustomerSupport from './Pages/CustomerSupport';
+import DeliveryDetails from './Pages/DeliveryDetails';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+import TermsAndCondition from './Pages/TermsAndCondition';
 
 function App() {
   return (
@@ -38,6 +42,10 @@ function App() {
         <Route path='/features' element={<Features />} />
         <Route path="/works" element={<Works />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/customersupport" element={<CustomerSupport />} />
+        <Route path="/DeliveryDetails" element={<DeliveryDetails />} />
+        <Route path="/TermsAndCondition" element={<TermsAndCondition />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
       <Fotter />
     </BrowserRouter>
