@@ -60,29 +60,29 @@ export function Fotter() {
                 <h3 className="font-semibold">HELP</h3>
                 <ul className="mt-2 space-y-2 text-gray-600">
                   <li>
-                    <a href="#" className="hover:underline">
+                    <Link to="/CustomerSupport" className="hover:underline">
                       Customer Support
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <Link to="/DeliveryDetails" className="hover:underline">
                       Delivery Details
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <Link to="/TermsAndCondition" className="hover:underline">
                       Terms & Conditions
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <Link to="/privacyPolicy" className="hover:underline">
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
 
-              <div className="w-1/2 md:w-1/4 mb-6">
+              {/* <div className="w-1/2 md:w-1/4 mb-6">
                 <h3 className="font-semibold">FAQ</h3>
                 <ul className="mt-2 space-y-2 text-gray-600">
                   <li>
@@ -104,6 +104,31 @@ export function Fotter() {
                     <a href="#" className="hover:underline">
                       Payments
                     </a>
+                  </li>
+                </ul>
+              </div> */}
+              <div className="w-1/2 md:w-1/4 mb-6">
+                <h3 className="font-semibold">FAQ</h3>
+                <ul className="mt-2 space-y-2 text-gray-600">
+                  <li>
+                    <Link to="/Account" className="hover:underline">
+                      Account
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/ManageOrders" className="hover:underline">
+                      Manage Orders
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/ShippingAndReturns" className="hover:underline">
+                      Shipping & Returns
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/Payments" className="hover:underline">
+                      Payments
+                    </Link>
                   </li>
                 </ul>
               </div>
