@@ -82,84 +82,27 @@ export function Fotter() {
                 </ul>
               </div>
 
-              {/* <div className="w-1/2 md:w-1/4 mb-6">
-                <h3 className="font-semibold">FAQ</h3>
-                <ul className="mt-2 space-y-2 text-gray-600">
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Account
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Manage Orders
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Shipping & Returns
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Payments
-                    </a>
-                  </li>
-                </ul>
-              </div> */}
-              <div className="w-1/2 md:w-1/4 mb-6">
-                <h3 className="font-semibold">FAQ</h3>
-                <ul className="mt-2 space-y-2 text-gray-600">
-                  <li>
-                    <Link to="/Account" className="hover:underline">
-                      Account
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/ManageOrders" className="hover:underline">
-                      Manage Orders
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/ShippingAndReturns" className="hover:underline">
-                      Shipping & Returns
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/Payments" className="hover:underline">
-                      Payments
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+                            <div className="w-1/2 md:w-1/4 mb-6">
+                                <h3 className="font-semibold">FAQ</h3>
+                                <ul className="mt-2 space-y-2 text-gray-600">
+                                    <li><Link to="/Account" className="hover:underline">Account</Link></li>
+                                    <li><Link to="/ManageOrders" className="hover:underline">Manage Orders</Link></li>
+                                    <li><Link to="/ShippingAndReturns" className="hover:underline">Shipping & Returns</Link></li>
+                                    <li><Link to="/Payments" className="hover:underline">Payments</Link></li>
+                                </ul>
+                            </div>
 
-              <div className="w-1/2 md:w-1/4 mb-6">
-                <h3 className="font-semibold">CLOTHING</h3>
-                <ul className="mt-2 space-y-2 text-gray-600">
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Men's Collection
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Women's Collection
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:underline">
-                      Kids' Fashion
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:underline">
-                      New Arrivals
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+                            <div className="w-1/2 md:w-1/4 mb-6">
+                                <h3 className="font-semibold">CLOTHING</h3>
+                                <ul className="mt-2 space-y-2 text-gray-600">
+                                    <li><Link to="/MensPage" className="hover:underline">Men's Collection</Link></li>
+                                    <li><Link to="/WomensPage" className="hover:underline">Women's Collection</Link></li>
+                                    <li><Link to="/KidsPage" className="hover:underline">Kids' Fashion</Link></li>
+                                    <li><Link to="/NewArrivals" className="hover:underline">New Arrivals</Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
           <hr className="my-6 border-gray-300" />
 

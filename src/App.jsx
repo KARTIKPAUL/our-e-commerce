@@ -20,6 +20,10 @@ import Account from './Pages/Account';
 import ManageOrders from './Pages/ManageOrders';
 import ShippingAndReturns from './Pages/ShippingAndReturns';
 import Payments from './Pages/Payments';
+import MensPage from './Pages/MensPage';
+import WomensPage from './Pages/WomensPage';
+import KidsPage from './Pages/KidsPage';
+import NewArrivals from './Pages/NewArrivals';
 function App() {
   return (
     <BrowserRouter>
@@ -56,6 +60,10 @@ function App() {
         <Route path="/manageOrders" element={<ManageOrders />} />
         <Route path="/shippingAndReturns" element={<ShippingAndReturns />} />
         <Route path="/payments" element={<Payments />} />
+        <Route path="/mensPage" element={<MensPage />} />
+        <Route path="/womensPage" element={<WomensPage />} />
+        <Route path="/kidsPage" element={<KidsPage />} />
+        <Route path="/NewArrivals" element={<NewArrivals />} />
       </Routes>
       <Fotter />
     </BrowserRouter>
