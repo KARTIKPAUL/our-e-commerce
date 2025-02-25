@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { FaShoppingCart, FaUser, FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const categories = [
   { name: "Oversized", link: "/oversized", description: "Loose and comfortable fit" },
@@ -70,9 +72,9 @@ const Navbar = () => {
           <a href="/on-sale" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
             On Sale
           </a>
-          <a href="/new-arrivals" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
+          <Link to="/NewArrivals" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
             New Arrivals
-          </a>
+          </Link>
 
 
           {/* Brands below Cart */}
@@ -93,9 +95,9 @@ const Navbar = () => {
 
         
           {/* Cart Icon */}
-          <a href="/cart" className="text-gray-800 hover:bg-gray-100 p-2 rounded-md transition font-inter">
+          <Link to="manageOrders" className="text-gray-800 hover:bg-gray-100 p-2 rounded-md transition font-inter">
             <FaShoppingCart size={20} />
-          </a>
+          </Link>
 
         {/* Profile Dropdown */}
         <div className="flex items-center space-x-4">
@@ -115,14 +117,14 @@ const Navbar = () => {
               <Menu.Items className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-md py-2">
                 <Menu.Item>
                   {({ active }) => (
-                    <a
-                      href="/profile"
+                    <Link
+                      to="/account"
                       className={`block px-4 py-2 text-xs ${
                         active ? "bg-gray-100 text-gray-900" : "text-gray-600"
                       } transition`}
                     >
                       Profile
-                    </a>
+                    </Link>
                   )}
                 </Menu.Item>
                 <Menu.Item>
