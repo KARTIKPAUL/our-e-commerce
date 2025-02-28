@@ -24,6 +24,7 @@ import MensPage from './Pages/MensPage';
 import WomensPage from './Pages/WomensPage';
 import KidsPage from './Pages/KidsPage';
 import NewArrivals from './Pages/NewArrivals';
+import OnSale from './Pages/OnSale';
 function App() {
   return (
     <BrowserRouter>
@@ -61,6 +62,7 @@ function App() {
         <Route path="/womensPage" element={<WomensPage />} />
         <Route path="/kidsPage" element={<KidsPage />} />
         <Route path="/NewArrivals" element={<NewArrivals />} />
+        <Route path="/OnSale" element={<OnSale />} />
       </Routes>
       <Fotter />
     </BrowserRouter>

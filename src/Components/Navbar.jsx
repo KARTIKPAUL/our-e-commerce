@@ -69,9 +69,9 @@ const Navbar = () => {
 
         {/* Center Section: On Sale, New Arrivals, Cart, Brands */}
         <div className="flex items-center space-x-6">
-          <a href="/on-sale" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
+          <Link to="/OnSale" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
             On Sale
-          </a>
+          </Link>
           <Link to="/NewArrivals" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
             New Arrivals
           </Link>
@@ -129,14 +129,14 @@ const Navbar = () => {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <a
-                      href="/orders"
+                    <Link
+                      to="/manageOrders"
                       className={`block px-4 py-2 text-xs ${
                         active ? "bg-gray-100 text-gray-900" : "text-gray-600"
                       } transition`}
                     >
                       Orders
-                    </a>
+                    </Link>
                   )}
                 </Menu.Item>
                 <Menu.Item>
