@@ -25,6 +25,7 @@ import WomensPage from './Pages/WomensPage';
 import KidsPage from './Pages/KidsPage';
 import NewArrivals from './Pages/NewArrivals';
 import OnSale from './Pages/OnSale';
+import Brands from './Pages/Brands';
 function App() {
   return (
     <BrowserRouter>
@@ -45,7 +46,7 @@ function App() {
           }
         />
 
-        {/* About Page */}
+
         <Route path="/about" element={<About />} />
         <Route path='/features' element={<Features />} />
         <Route path="/works" element={<Works />} />
@@ -63,6 +64,7 @@ function App() {
         <Route path="/kidsPage" element={<KidsPage />} />
         <Route path="/NewArrivals" element={<NewArrivals />} />
         <Route path="/OnSale" element={<OnSale />} />
+        <Route path="/Brands" element={<Brands />} />
       </Routes>
       <Fotter />
     </BrowserRouter>

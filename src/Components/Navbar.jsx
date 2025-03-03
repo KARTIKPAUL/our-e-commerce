@@ -78,9 +78,9 @@ const Navbar = () => {
 
 
           {/* Brands below Cart */}
-          <a href="/brands" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
+          <Link to="/Brands" className="text-sm text-gray-800 hover:bg-gray-100 px-2 py-1 rounded-md transition font-inter">
             Brands
-          </a>
+          </Link>
         </div>
 
         {/* Right Side: Search Bar */}
@@ -142,7 +142,6 @@ const Navbar = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="/logout"
                       className={`block px-4 py-2 text-xs text-red-600 ${
                         active ? "bg-gray-100" : ""
                       } transition`}
