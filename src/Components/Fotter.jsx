@@ -85,7 +85,7 @@ export function Fotter() {
                             <div className="w-1/2 md:w-1/4 mb-6">
                                 <h3 className="font-semibold">FAQ</h3>
                                 <ul className="mt-2 space-y-2 text-gray-600">
-                                    <li><Link to="/Account" className="hover:underline">Account</Link></li>
+                                    <li><Link to="/account" className="hover:underline">Account</Link></li>
                                     <li><Link to="/ManageOrders" className="hover:underline">Manage Orders</Link></li>
                                     <li><Link to="/ShippingAndReturns" className="hover:underline">Shipping & Returns</Link></li>
                                     <li><Link to="/Payments" className="hover:underline">Payments</Link></li>
