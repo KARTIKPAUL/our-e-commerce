@@ -26,6 +26,12 @@ import KidsPage from './Pages/KidsPage';
 import NewArrivals from './Pages/NewArrivals';
 import OnSale from './Pages/OnSale';
 import Brands from './Pages/Brands';
+import OverSized from './Pages/OverSized';
+import WindCheater from './Pages/WindCheater';
+import CargoPants from './Pages/CargoPants';
+import Socks from './Pages/Socks';
+import Shorts from './Pages/Shorts';
+import RelaxedTshirts from './Pages/RelaxedTshirts';
 function App() {
   return (
     <BrowserRouter>
@@ -68,6 +74,13 @@ function App() {
         <Route path="/NewArrivals" element={<NewArrivals />} />
         <Route path="/OnSale" element={<OnSale />} />
         <Route path="/Brands" element={<Brands />} />
+        <Route path="/oversized" element={<OverSized />} />
+        <Route path="/windcheater" element={<WindCheater />} />
+        <Route path="/cargo-pants" element={<CargoPants />} />
+        <Route path="/socks" element={<Socks />} />
+        <Route path="/shorts" element={<Shorts />} />
+        <Route path="/relaxed-tshirts" element={<RelaxedTshirts />} />
+        
       </Routes>
       <Fotter />
     </BrowserRouter>
