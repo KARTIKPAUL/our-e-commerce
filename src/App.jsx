@@ -75,7 +75,7 @@ function App() {
         <Route path="/OnSale" element={<OnSale />} />
         <Route path="/Brands" element={<Brands />} />
         <Route path="/oversized" element={<OverSized />} />
-        <Route path="/windcheater" element={<WindCheater />} />
+        <Route path="/wind-cheater" element={<WindCheater />} />
         <Route path="/cargo-pants" element={<CargoPants />} />
         <Route path="/socks" element={<Socks />} />
         <Route path="/shorts" element={<Shorts />} />
